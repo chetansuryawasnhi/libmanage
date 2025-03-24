@@ -75,8 +75,8 @@ To use this repositry or project follow the steps
 
     - if succesful you will recive a response like
      {
-    access_toekn "_"
-    refresh_toek "_"
+    - access_toekn "_"
+    - refresh_toek "_"
 
      }
 
