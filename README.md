@@ -20,16 +20,16 @@ To use this repositry or project follow the steps
 6. now go to the file and open settings.py form
  libmanage\settings.py
     and do this changes
-  DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_db_name', // here add your databse name which you created just
-        'USER': 'your_db_user', // here add your user
-        'PASSWORD': 'your_db_password', // your password
-        'HOST': 'localhost',
-        'PORT': '3306',
-      }
-  }
+  - DATABASES = {
+  -  'default': {
+  -     'ENGINE': 'django.db.backends.mysql',
+  -      'NAME': 'your_db_name', // here add your databse name which you created just
+  -      'USER': 'your_db_user', // here add your user
+  -     'PASSWORD': 'your_db_password', // your password
+  -      'HOST': 'localhost',
+  -     'PORT': '3306',
+  -    }
+  - }
 
 7. after that open the new terminal from your open filed location
    - Run the following commands to set up the database tables:
@@ -43,7 +43,7 @@ To use this repositry or project follow the steps
 
 10. Register the uer by using api
 
-  POST http://127.0.0.1:8000/api/register/
+ - POST http://127.0.0.1:8000/api/register/
 
   Request Body (JSON Format):
   
