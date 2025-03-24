@@ -82,8 +82,7 @@ To use this repositry or project follow the steps
 
     - this token are very userful to do the crud opertions copy the access_toekn
     - this toekn will update at certain time
-  
-  12. now to add a new book
+12. now to add a new book
       ![image](https://github.com/user-attachments/assets/a4ebf533-9b3a-448e-9ef9-e1d948295ff8)
 
       - at this time the acces toekn is we have to proivde in header
@@ -105,7 +104,7 @@ To use this repositry or project follow the steps
         "isbn": "1234",
         "available": true or false
     },
-13 .  read the book 
+13.  read the book 
        -follow same mathod of accesS token from login which you get
        - use this api endpoint
       
