@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'libmanage.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'book',
-        'USER': 'root',
-        'PASSWORD': 'chetan',
+        'NAME': 'your_database_name',
+        'USER': 'your_user',
+        'PASSWORD': 'your_password',
         'HOST': 'localhost',
         'PORT': '3306',
     }
