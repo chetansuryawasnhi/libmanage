@@ -23,7 +23,7 @@ urlpatterns = [
     path('api/profile/',ProfileView.as_view()),
     path('api/register/', RegisterView.as_view()),
     path('api/login/', LoginView.as_view()),
-    path('api/studnet/',StudentBookListView.as_view()),
+    path('api/read/',StudentBookListView.as_view()),
     path('api/book_create/', BookCreateView.as_view(), name='book-create'),
     path('api/book_update/<int:pk>/', BookUpdateView.as_view(), name='book-update'),
     path('api/book_delete/<int:pk>/', BookDeleteView.as_view(), name='book-delete'),
