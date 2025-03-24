@@ -18,8 +18,8 @@ To use this repositry or project follow the steps
    - create database your_db_name
   
 6. now go to the file and open settings.py form
-  - libmanage\settings.py
-  - and do this changes
+ libmanage\settings.py
+    and do this changes
   DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
