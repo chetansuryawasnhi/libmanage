@@ -84,12 +84,14 @@ To use this repositry or project follow the steps
     - this toekn will update at certain time
   
   12. now to add a new book
+      ![image](https://github.com/user-attachments/assets/a4ebf533-9b3a-448e-9ef9-e1d948295ff8)
+
       - at this time the acces toekn is we have to proivde in header
       - Bearer access_toekn
       - ex using a postman go to header and chooce authorization and in next column past "Bearer acces_toekn"
-    - like this image
+      - like this image
 
-    ![image](https://github.com/user-attachments/assets/b10e14d0-62d2-444f-a478-03fd5cbde233)
+    
 
 
   
